@@ -4,20 +4,14 @@ public class video {
 			String nome,
 			String resenha,
 			String fotocapa,
-			String anomelancamento,
-			String duracao,
-			int categoria,
-			int midia,
-			int classificacao)
+			String anolancamento,
+			String duracao)
 		{
 		setNome(nome);
 		setResenha(resenha);
 		setFotocapa(fotocapa);
-		setAnolancamento(anomelancamento);
+		setAnolancamento(anolancamento);
 		setDuracao(duracao);
-		setCategoria(categoria);
-		setMidia(midia);
-		setClassificacao(classificacao);
 	}
 	
 	private String nome;
@@ -25,9 +19,6 @@ public class video {
 	private String fotocapa;
 	private String anolancamento;
 	private String duracao;
-	private int categoria;
-	private int midia;
-	private int classificacao;
 	
 	public String getNome() {
 		return nome;
@@ -58,23 +49,5 @@ public class video {
 	}
 	public void setDuracao(String duracao) {
 		this.duracao = duracao;
-	}
-	public int getCategoria() {
-		return categoria;
-	}
-	public void setCategoria(int categoria) {
-		this.categoria = categoria;
-	}
-	public int getMidia() {
-		return midia;
-	}
-	public void setMidia(int midia) {
-		this.midia = midia;
-	}
-	public int getClassificacao() {
-		return classificacao;
-	}
-	public void setClassificacao(int classificacao) {
-		this.classificacao = classificacao;
 	}
 }
