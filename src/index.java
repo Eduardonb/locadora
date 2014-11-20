@@ -45,6 +45,7 @@ public class index {
 				if(video != null) {
 					JOptionPane.showMessageDialog(null,"Nome do video: "+video.getNome()+"\n"+
 													"Resenha: "+video.getResenha()+"\n"+
+													"Caminho da foto: "+video.getFotocapa()+"\n"+
 													"Ano lançamento: "+video.getAnolancamento()+"\n"+
 													"Duração: "+video.getDuracao());
 				}
